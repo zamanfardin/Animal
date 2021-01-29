@@ -1,0 +1,607 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,h2,h3,h4,h5,h6,span,input{
+	font-family: 'Poppins', sans-serif;
+}
+.form-control {
+    
+    padding: 0.8rem .75rem;
+   
+    
+    color: white !important;
+    background-color: #fcc302 !important ;
+    
+    border: 1px solid #fcc302 !important;
+   
+    border-radius: none !important;
+    
+}
+
+.input-group-text {
+    
+    padding: .375rem 1.25rem !important;
+    
+    color: white !important;
+    
+    background-color: #00bec9 !important;
+
+    border: none !important;
+    
+}
+.input-group-text-1 {
+    
+    padding: .375rem 1.25rem !important;
+    
+    color: white !important;
+    
+    background-color: #00bec9 !important;
+
+    border: none !important;
+}
+.input-group-text i{
+	color:white!important;
+}
+.input-group-text-1 i{
+	color:white!important;
+}
+
+
+.banner{
+	background-color: #fcc302;
+	width:100%;
+	padding: 140px 0px;
+	
+}
+header{
+	width: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.2);
+}
+
+.banner h1 {
+	font-size: 64px;
+	font-weight: 600;
+	color:white;
+	margin-top: 60px;
+}
+.banner p {
+	font-size:28px;
+	color:white;
+	margin: 42px 0px;
+}
+
+.banner .btn-primary{
+	background-color: #00bec9!important;
+	border-color: #00bec9!important;
+}
+
+.nav-link{
+	font-size: 30px;
+	color:white!important;
+}
+.nav-item{
+	margin: 0px 32px;
+}
+
+.lal{
+	width: 100%;
+	padding: 120px 0px;
+	background-color: white;
+
+
+
+}
+.lal h1{
+	font-size: 50px;
+	font-weight: 600;
+	color:black;
+	margin-top: 60px;
+}
+
+.lal p{
+	font-size:28px;
+	color:black;
+	margin: 42px 0px;
+
+}
+.lal .btn-danger{
+	background-color: #fcc302!important;
+	border-color: #fcc302!important;
+}
+
+.dog{
+	position: relative;
+	z-index: 1;
+}
+.shadow{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 90px;
+    bottom: 0;
+
+    
+    background: rgba(252,195,2,0.6);
+}
+.box{
+	left: -30px;
+    height: 140px;
+    width: 200px;
+    background: #fcc302;
+    bottom: -59px;
+    position: absolute;
+    z-index: -1;
+}
+
+.icon{
+
+}
+.icon i{
+	height: 70px;
+	width: 70px;
+	background: white;
+	color: #fcc302;
+	position: absolute;
+	left: 30%;
+	top: 36%;
+	line-height: 70px;
+	border-radius: 100px;
+	text-align: center;
+}
+
+
+.vaccin{
+	width: 100%;
+padding: 120px 0;
+text-align: center;
+background-color: #fcc302;
+color: #fff;
+}
+
+.vaccin h2{
+	font-size: 75px;
+font-weight: 600;
+
+}
+
+.vaccin p{
+	font-size: 33px;
+font-weight: 400;
+margin: 0px auto 50px auto;
+width: 60%;
+
+}
+.ko h4{
+	margin: 30px 0px 15px 0px;
+font-size: 38px;
+font-weight: 600;
+
+}
+.ko p{
+	font-weight: 400;
+margin: 0px auto 50px auto;
+width: 100%;
+font-size: 27px;
+
+}
+.mo h4{
+	margin: 30px 0px 15px 0px;
+font-size: 38px;
+font-weight: 600;
+
+}
+.mo p{
+	font-weight: 400;
+margin: 0px auto 50px auto;
+width: 100%;
+font-size: 27px;
+
+}
+.to h4{
+	margin: 30px 0px 15px 0px;
+font-size: 38px;
+font-weight: 600;
+
+}
+.to p{
+	font-weight: 400;
+margin: 0px auto 50px auto;
+width: 100%;
+font-size: 27px;
+
+}
+
+.ca{
+	width: 100%;
+	padding: 120px 0px;
+	background-color: white;
+
+
+
+}
+.ca h1{
+	font-size: 50px;
+	font-weight: 600;
+	color:black;
+	margin-top: 60px;
+}
+
+.ca p{
+	font-size:28px;
+	color:black;
+	margin: 42px 0px;
+
+}
+.ca .btn-danger{
+	background-color: #fcc302!important;
+	border-color: #fcc302!important;
+}
+
+.pig{
+	position: relative;
+	z-index: 1;
+}
+.padu{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 90px;
+    bottom: 0;
+
+    
+    background: rgba(252,195,2,0.6);
+}
+.mal{
+	left: -30px;
+    height: 140px;
+    width: 200px;
+    background: #fcc302;
+    bottom: -59px;
+    position: absolute;
+    z-index: -1;
+}
+
+.icon-v{
+
+}
+.icon-v i{
+	height: 70px;
+	width: 70px;
+	background: white;
+	color: #fcc302;
+	position: absolute;
+	left: 30%;
+	top: 36%;
+	line-height: 70px;
+	border-radius: 100px;
+	text-align: center;
+}
+
+
+.vaccin-p{
+	width: 100%;
+padding: 120px 0;
+text-align: center;
+background-color: #fcc302;
+color: #fff;
+}
+
+.vaccin-p h2{
+	font-size: 75px;
+font-weight: 600;
+
+}
+
+.vaccin-p p{
+	font-size: 33px;
+font-weight: 400;
+margin: 0px auto 50px auto;
+width: 60%;
+
+}
+
+.po h4{
+	font-size: 38px;
+font-weight: 600;
+margin: 20px;
+}
+.po del{
+	padding: 15px;
+}
+.po button{
+	padding: 10px 48px;
+border-radius: 50px;
+color: #fff;
+background-color: #00bec9;
+border-color: #00bec9;
+font-size: 20px;
+}
+.wo h4{
+	font-size: 38px;
+font-weight: 600;
+margin: 20px;
+}
+.wo del{
+	padding: 15px;
+}
+.wo button{
+	padding: 10px 48px;
+border-radius: 50px;
+color: #fff;
+background-color: #00bec9;
+border-color: #00bec9;
+font-size: 20px;
+}
+.oo h4{
+	font-size: 38px;
+font-weight: 600;
+margin: 20px;
+}
+.oo del{
+	padding: 15px;
+}
+.oo button{
+	padding: 10px 48px;
+border-radius: 50px;
+color: #fff;
+background-color: #00bec9;
+border-color: #00bec9;
+font-size: 20px;
+}
+
+.vaccin-k{
+	width: 100%;
+padding: 80px 0;
+text-align: center
+
+
+}
+
+.vaccin-k h2{
+	font-size: 75px;
+font-weight: 600;
+
+}
+
+.vaccin-k p{
+	font-size: 33px;
+font-weight: 400;
+margin: 0px auto 50px auto;
+width: 60%;
+
+}
+
+.no h4{
+	font-size: 38px;
+font-weight: 600;
+margin: 20px;
+}
+.no p{
+		font-size: 25px ;
+font-weight: 400 ;
+margin: 0px auto 16px auto ;
+width: 60%;
+}
+
+.no-1 h4{
+	font-size: 38px;
+font-weight: 600;
+margin: 20px;
+}
+.no-1 p{
+		font-size: 25px ;
+font-weight: 400 ;
+margin: 0px auto 16px auto ;
+width: 60%;
+	
+		font-size: 25px ;
+font-weight: 400 ;
+margin: 0px auto 16px auto ;
+width: 60%;
+}
+
+.no-2 h4{
+	font-size: 38px;
+font-weight: 600;
+margin: 20px;
+}
+.no-2 p{
+	font-size: 25px ;
+font-weight: 400 ;
+margin: 0px auto 16px auto ;
+width: 60%;
+}
+.no ul li{
+	list-style: none;
+	display: inline-block;
+background: rgb(252 195 2);
+width: 35px;
+height: 35px;
+line-height: 35px;
+border-radius: 50%;
+margin: 0px 8px;
+}
+.no a{
+	color: white;
+font-size: 20px;
+}
+.no-1 ul li{
+	list-style: none;
+	display: inline-block;
+background: rgb(252 195 2);
+width: 35px;
+height: 35px;
+line-height: 35px;
+border-radius: 50%;
+margin: 0px 8px;
+}
+.no-1 a{
+	color: white;
+font-size: 20px;
+}
+.no-2 ul li{
+	list-style: none;
+	display: inline-block;
+background: rgb(252 195 2);
+width: 35px;
+height: 35px;
+line-height: 35px;
+border-radius: 50%;
+margin: 0px 8px;
+}
+.no-2 a{
+	color: white;
+font-size: 20px;
+}
+
+
+
+
+
+
+
+.history{
+	width: 100%;
+	background-image: url(../img/do-7.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+	position: relative;
+
+}
+.over{
+		position: absolute;
+    top: 0;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+
+    
+    background: rgba(252,195,2,0.6);
+}
+.history .row{
+	text-align: center;
+	padding: 250px 0px;
+
+}
+
+.history .row .col-md-4 i{
+	font-size: 72px;
+	color: white;
+
+}
+.history .row .col-md-4 h2{
+	font-size: 42px;
+	
+}
+.history .row .col-md-4 h3{
+	font-size: 38px;
+}
+
+.vaccin-t{
+	width: 100%;
+padding: 80px 0;
+text-align: center
+
+
+}
+
+.vaccin-t h2{
+	font-size: 75px;
+font-weight: 600;
+
+}
+
+.vaccin-t p{
+	font-size: 33px;
+font-weight: 400;
+margin: 0px auto 50px auto;
+width: 60%;
+
+}
+.card-body{
+	border:2px solid rgba(0, 0,0, 0.125) !important;
+}
+.card-body h4{
+	color: #313243;
+font-size: 28px;
+font-weight: 600;
+
+}
+.card-body span{
+	display: block;
+color: #00bec9;
+
+}
+.card-body p{
+	
+font-size: 17px;
+word-spacing: 1px;
+color: #4f4f4f;
+}
+.card-body a{
+	display: block;
+font-size: 20px;
+color: rgb(0 190 201 / 1);
+font-weight: 600;
+}
+.footer{
+	width: 100%;
+background-color: black;
+padding: 80px;
+color: #fff;
+}
+.footer .col-md-3 h4{
+	font-size: 40px;
+color: white;
+margin: 35px 31px 0px;
+font-weight: 600;
+}
+
+.footer .col-md-3 ul li{
+	list-style: none;
+}
+.footer .col-md-3 ul li a{
+	font-size: 20px;
+color: white;
+text-decoration:none; 
+}
+
+.footer .col-md-3 ul li a:hover{
+	color: yellow;
+}
+.footer .col-md-5 h4{
+	font-size: 40px;
+color: white;
+margin: 35px 0px 0px;
+font-weight: 600;
+}
+.footer .col-md-5 p{
+	font-size: 25px;
+line-height: 49px;
+
+}
+.social-ic ul li{
+	list-style: none;
+}
+.social-ic ul li i{
+
+width: 35px;
+height: 35px;
+background-color: white;
+margin: 30px 10px 0px 10px;
+text-align: center;
+line-height: 35px;
+border-radius: 50%;
+color: #444;
+	
+}
+
+
+
+
